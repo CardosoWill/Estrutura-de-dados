@@ -33,7 +33,7 @@ int main(void) {
 	pNode1 = (struct node*) malloc(sizeof(struct node*));
 	pNode1->nDado = 10;
 	
-	pNode2 = (struct node*) malloc(sizeof(struct node*));
+	pNode2 = (struct node*) malljoc(sizeof(struct node*));
 	pNode2->nDado = 20;
 	
 	pNode3 = (struct node*) malloc(sizeof(struct node*));
